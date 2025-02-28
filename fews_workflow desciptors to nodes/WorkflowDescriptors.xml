@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflowDescriptors xmlns="http://www.wldelft.nl/fews"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/workflowDescriptors.xsd" version="1.0">
+	<!-- historic -->
+	<workflowDescriptor id="wf.im.wiwb.knmi.hist" name="Download WIWB KNMI Historische Neerslag, Verdamping" forecast="false" visible="true" autoApprove="false">
+		<description>Import historic WIWB KNMI Data</description>
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.im.matroos.rws.hist" name="Import Historic Matroos Data RWS" forecast="false" visible="true" autoApprove="false">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.ex.matroos.rws.hist" name="Export Historic Matroos Data RWS" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.run.digiflow.model.hist" name="Run Digiflow Model Historic" forecast="true" visible="true" autoApprove="false">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="day" multiplier="1"/>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.ex.meteo.digiflow.hist" name="Export Meteo to Digiflow Model" forecast="true" visible="true" autoApprove="false">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="5"/>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.process_results.digiflow.model.hist.modflow" name="Process Digiflow modflow model historic results and import" forecast="false" visible="true" autoApprove="false">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="120"/>
+	</workflowDescriptor>
+		<workflowDescriptor id="wf.process_results.digiflow.model.hist.mswap" name="Process Digiflow mswap model historic results and import" forecast="false" visible="true" autoApprove="false">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="120"/>
+	</workflowDescriptor>
+	<!-- forecast -->
+	<workflowDescriptor id="wf.im.wiwb.knmi.pr.fcst" name="Import and process precipitation forecast" forecast="true" visible="true" autoApprove="true">
+		<description>Import WIWB KNMI harmonie 43 precipitation Forecast</description>
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.im.matroos.rws.fcst" name="Import Forecast Matroos Data RWS" forecast="true" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.ex.matroos.rws.fcst" name="Export Forecast Matroos Data RWS" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.prepreocess.digiflow.fcst" name="Import and process forecast evaporation" forecast="true" visible="true" autoApprove="true">
+		<description>All steps required before actually running the forecast model</description>
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.run.digiflow.model.fcst" name="Run Digiflow Model Forecast" forecast="true" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="day" multiplier="1"/>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.ex.meteo.digiflow.fcst" name="Export Meteo Forecast to Digiflow Model" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="5"/>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.process_results.digiflow.model.fcst.modflow" name="Process Digiflow modflow forecast results and import" forecast="true" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="120"/>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.process_results.digiflow.model.fcst.mswap" name="Process Digiflow mswap forecast results and import" forecast="true" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="120"/>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.purge_digiflow" name="Purge excess digiflow files" forecast="false" visible="true" autoApprove="false">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+		<timeOut unit="minute" multiplier="31"/>
+	</workflowDescriptor>
+
+	<!-- overig -->
+
+	<workflowDescriptor id="wf.im.peilbuizen.hist" name="Import modeluitkomsten voor peilbuizen" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf.im.peilbuizen.statistiek" name="Import modeluitkomsten voor peilbuizen (Statistiek)" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<!-- <workflowDescriptor id="wf.im.peilbuizen.tomv" name="Process grondwater in m-mv (2 jaarse batch)" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor> -->
+	<workflowDescriptor id="wf.im.maaiveld" name="Import maaiveldhoogte" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="Import_draagkracht_thresholds" name="Import draagkracht thresholds en processing" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="Import_landgebruik" name="Import landgebruik" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor>
+	<!-- <workflowDescriptor id="wf.im.peilbuizen.meting" name="Import grondwatermetingen" forecast="false" visible="true" autoApprove="true">
+		<cardinalTimeStep unit="day" timeZone="GMT"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<runPermission>manage</runPermission>
+	</workflowDescriptor> -->
+
+	<rootNode>
+		<node name="Azure grondwatermodel Historisch">
+			<workflowId>wf.im.wiwb.knmi.hist</workflowId>
+			<workflowId>wf.im.matroos.rws.hist</workflowId>
+			<workflowId>wf.ex.matroos.rws.hist</workflowId>
+			<workflowId>wf.run.digiflow.model.hist</workflowId>
+			<workflowId>wf.ex.meteo.digiflow.hist</workflowId>
+			<workflowId>wf.process_results.digiflow.model.hist.modflow</workflowId>
+			<workflowId>wf.process_results.digiflow.model.hist.mswap</workflowId>
+			<workflowId>wf.im.wiwb.knmi.pr.fcst</workflowId>
+			<workflowId>wf.im.matroos.rws.fcst</workflowId>
+			<workflowId>wf.ex.matroos.rws.fcst</workflowId>
+			<workflowId>wf.prepreocess.digiflow.fcst</workflowId>
+			<workflowId>wf.run.digiflow.model.fcst</workflowId>
+			<workflowId>wf.ex.meteo.digiflow.fcst</workflowId>
+			<workflowId>wf.process_results.digiflow.model.fcst.modflow</workflowId>
+			<workflowId>wf.process_results.digiflow.model.fcst.mswap</workflowId>
+			<workflowId>wf.purge_digiflow</workflowId>			
+		</node>
+		<node name="Imports">
+			<workflowId>Import_draagkracht_thresholds</workflowId>
+			<workflowId>Import_landgebruik</workflowId>
+			<workflowId>wf.im.maaiveld</workflowId>
+			<!-- <workflowId>wf.im.peilbuizen.meting</workflowId> -->
+		</node>
+		<node name="processing peilbuizen">
+			<workflowId>wf.im.peilbuizen.hist</workflowId>
+			<workflowId>wf.im.peilbuizen.statistiek</workflowId>
+			<!-- <workflowId>wf.im.peilbuizen.tomv</workflowId> -->
+		</node>
+	</rootNode>
+	
+</workflowDescriptors>
