@@ -1,0 +1,389 @@
+<validationRuleSets version="1.1" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/validationRuleSets.xsd">
+    <validationRuleSet validationRuleSetId="ExtremeValue" timeZone="CET">
+        <logLevel>DEBUG</logLevel>
+        <extremeValuesFunctions>
+            <hardMax constantLimit="@H_MAX@"/>
+            <hardMin constantLimit="@H_MIN@"/>
+            <softMax constantLimit="@S_MAX@"/>
+            <softMin constantLimit="@S_MIN@"/>
+        </extremeValuesFunctions>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14694</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14694</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14695</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14695</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14696</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14696</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14699</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14699</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14700</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14700</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14715</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14715</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14701</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14701</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14614</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14614</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14702</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14702</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14703</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14703</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14704</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14704</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14705</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14705</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14706</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14706</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14618</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14618</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14707</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14707</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14708</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14708</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14709</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14709</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14710</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14710</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14605</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14605</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14604</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS14604</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_1</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS15028</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+        <timeSeriesSet>
+            <moduleInstanceId>Import_2</moduleInstanceId>
+            <valueType>sample</valueType>
+            <parameterId>WNS15028</parameterId>
+            <locationSetId>LocationSet</locationSetId>
+            <timeSeriesType>external historical</timeSeriesType>
+            <timeStep/>
+            <readWriteMode>add originals</readWriteMode>
+        </timeSeriesSet>
+    </validationRuleSet>
+</validationRuleSets>
