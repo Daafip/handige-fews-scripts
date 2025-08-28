@@ -1,0 +1,45 @@
+{
+    "version": "1.34",
+    "timeZone": "0.0",
+    "timeSeries": [
+        {
+            "header": {
+                "type": "instantaneous",
+                "moduleInstanceId": "ImportKeller",
+                "locationId": "B45C1081",
+                "parameterId": "Stijghoogte.ongevalideerd",
+                "timeStep": {
+                    "unit": "second",
+                    "multiplier": "3600"
+                },
+                "startDate": {
+                    "date": "1990-01-01",
+                    "time": "00:00:00"
+                },
+                "endDate": {
+                    "date": "2025-01-01",
+                    "time": "00:00:00"
+                },
+                "missVal": "-999.0",
+                "stationName": "Haa_3017_01",
+                "lat": "51.60541326356878",
+                "lon": "5.176536036944744",
+                "x": "140406.0",
+                "y": "401857.0",
+                "z": "0.0",
+                "units": "m NAP",
+                "firstValueTime": {
+                    "date": "2010-03-10",
+                    "time": "15:00:00"
+                },
+                "lastValueTime": {
+                    "date": "2025-01-01",
+                    "time": "00:00:00"
+                },
+                "maxValue": "8.674",
+                "minValue": "4.805",
+                "valueCount": "120002"
+            }
+        }
+    ]
+}
