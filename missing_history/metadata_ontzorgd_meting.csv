@@ -1,0 +1,2 @@
+,locationId,parameterId,stationName,x,y,z,valueCount,maxValue,minValue,firstValueTime,lastValueTime
+1,loc_02,P.meting,"loc 02, Debietmeting",0.0,0.0,0.0,0,0,0,2000-00-00 00:00:00,2010-00-00 00:00:00
